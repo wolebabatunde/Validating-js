@@ -1,0 +1,34 @@
+.simpleform{
+    width: 70;
+    margin: 20px auto;
+    padding: 6px 20px;
+    border: 1px solid #000000;
+    border: 6px;
+}
+
+.simpleform input{
+    width: 50%;
+    margin: 4px 0px;
+    padding: 2px 4px;
+}
+
+.simpleform button{
+    margin: 8px 0px;
+}
+
+.wrong-input{
+    border: 1px solid red;
+    animation: shake.0.5s;
+    animation-iteration-count: 5;
+}
+
+.error{
+    color: red; 
+}
+
+@keyframes shake{
+    10%, 90%{
+        transform: translate3d(-1px,0,0);
+    }
+}
+

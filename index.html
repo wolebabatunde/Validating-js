@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validate.css">
+    <title>JavaScript Form Validation</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Kindly Register to continue</h1>
+        <form action="" method="" class="simpleform" onsubmit="return ValidateForm()">
+            <input type="text" id="username" placeholder="User Name">
+            <p class="error"></p>
+    
+            <input type="number" id="phonenum" placeholder="Phone Number">
+            <p class="error"></p>
+    
+            <input type="password" id="password" placeholder="Password">
+            <p class="error"></p>
+    
+            <input type="password" id="confirm_password" placeholder="confirm Password">
+            <p class="error"></p>
+    
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="validate.js"></script>
+    
+</body>
+</html>
